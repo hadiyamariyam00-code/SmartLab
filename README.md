@@ -1,19 +1,19 @@
-# SmartLab — Computer Lab Monitoring & Management System
+# SmartLab: Computer Lab Monitoring & Management System
 
 A centralized web application built to automate, monitor, and manage computer
-lab operations in an academic institution — built as our final-year BCA
+lab operations in an academic institution.Built as our final-year BCA
 project (team of 4).
 
 ![Login screen](./docs/screenshots/01-login.png)
 
-> 📌 **Note on this repo:** This is an archival/reference version of the
+> 📌 **Note on this repo:** This is a reference version of the
 > project. The original source lived on a lab machine that's no longer
-> accessible — what's preserved here is the code appendix and screenshots
+> accessible.What's preserved here is the code appendix and screenshots
 > from our final submitted report. See [Repo status](#repo-status) below.
 
 ## Overview
 
-Most college computer labs are still managed manually — attendance on paper,
+Most college computer labs are still managed manually, Attendance on paper,
 systems allocated by hand, and supervision during exams limited to walking
 around the room. SmartLab replaces that with a single platform that gives
 Admins, Staff, Lab Assistants, and Students role-based dashboards, and gives
@@ -46,8 +46,8 @@ lab staff the ability to monitor and control lab systems remotely.
 
 ## My Role
 
-I built the entire web application — frontend, backend, and database design
-— covering all four role-based dashboards, the MySQL schema for lab
+I built the entire web application along with a teammate, frontend, backend, and database design
+,covering all four role-based dashboards, the MySQL schema for lab
 allocation/attendance/complaints, and the Django views/business logic. The
 Android companion app was built separately by a teammate and communicates
 with this backend over HTTP.
@@ -74,10 +74,9 @@ Each lab machine runs a small Python client (`monitoring_agent/`) that:
    and reports them back; if a restricted process is running, kills it
    automatically
 
-This is why the project can't be spun up as a public live demo — the
+This is why the project can't be spun up as a public live demo, the
 monitoring feature depends on a Windows client with local screen/camera/process
-access, not something that works over the public internet. See the demo
-video linked in the case study on my portfolio instead.
+access, not something that works over the public internet. 
 
 ## Repo Status
 
@@ -92,8 +91,7 @@ What's kept here:
   reformatting before it would run. `models.py`, `urls.py`, templates, and
   static assets weren't included in the report appendix and aren't recovered.
 
-I'm keeping this repo as an honest record of the work rather than faking a
-runnable checkout.
+I'm keeping this repo as an honest record of the work.
 
 ## Future Enhancements
 
