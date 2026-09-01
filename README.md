@@ -87,7 +87,7 @@ What's kept here:
   pulled from our submitted final report
 - `reference/views_from_report.py` — the Django `views.py` logic, extracted
   from the report's code appendix. **This is a reference copy, not a clean
-  checkout** — PDF extraction doesn't preserve exact indentation, so it needs
+  checkout**, so it needs
   reformatting before it would run. `models.py`, `urls.py`, templates, and
   static assets weren't included in the report appendix and aren't recovered.
 
