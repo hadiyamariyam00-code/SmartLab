@@ -69,6 +69,3 @@ Future Enhancements
 - Dark mode
 - Movie recommendations based on ratings
 
----
-
-Thank you! 🙌
